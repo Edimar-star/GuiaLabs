@@ -1,0 +1,15 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "nodemon src/scripts/webServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "formidable": "^2.1.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.22"
+  }
+}
